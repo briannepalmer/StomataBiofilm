@@ -7,3 +7,8 @@ We can use this GitHub respository to store the code, then I can see the changes
 
 I will upload few different scripts, this is easier to keep track of the analyses rather than having them all in one big document. 
 Usually, when I pulish a paper, I combine all the code into an R-Markdown file and add it on GitHub, this makes it easy for reviewers and readers to understand what I did. 
+
+
+#### FEB 7 Update ####
+
+Right now, there are files for DADA2_to_R, alpha diversity, beta diversity, and community composition -- these are the basic analyses we need to do. But once we look at the data, we need to sit down and talk about what the hypothesis we want to test and the best way to do this (random forest analyes, deseq, network analyses, etc.). A good place to get ideas about this is to read microbial community ecology papers and see what questions they asked/their methods. 
