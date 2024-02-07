@@ -137,5 +137,8 @@ t1$cal_diff(method = "anova", formula = c("Pipeline", "Location", "Type"), anova
 head(t1$res_diff)
 View(t1$res_diff) # view the results in a new window, hopefully we will see some significant differences ;) 
 
+# save as csv
+write.csv(t1$res_diff, file = "path/to/output")
+
 
 # now you have successfully calculated and ploted alpha diveristy, there are other ways we can approach it too -- we can make box plots or facet it differently, it all depends on how the data looks. 
